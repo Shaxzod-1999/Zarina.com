@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zarina.com</title>
+    <meta
+      name="description"
+      content="Some ideas for intro animations where an image stack moves to become a grid."
+    />
+    <meta
+      name="keywords"
+      content="css, javascript, gsap, animation, uidesign, inspiration, web design"
+    />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" href="https://use.typekit.net/lty4rfv.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.98fd6c19.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo1.ea7e4db3.css" />
+    <script>
+      document.documentElement.className = "js";
+
+      var supportsCssVars = function supportsCssVars() {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+  </head>
+  <body class="loading noscroll">
+    <main data-scroll-container="">
+      <div class="frame">
+        <h1 class="frame__title">Image Stack Intro Animation</h1>
+        <div class="frame__demos">
+          <a href="index.html" class="frame__demo frame__demo--current"
+            >Zarina</a
+          >
+        </div>
+        <div class="frame__links">
+          <a href="#">Previous demo</a>
+          <a href="#">Article</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+      <h2 class="title" data-splitting="">ZARINA</h2>
+      <div class="gallery">
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/1.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Birthday
+            </h2>
+            <span class="gallery__item-number">01</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/2.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Birthday
+            </h2>
+            <span class="gallery__item-number">02</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/3.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Birthday
+            </h2>
+            <span class="gallery__item-number">03</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/4.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Meeting
+            </h2>
+            <span class="gallery__item-number">04</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/5.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              The-form
+            </h2>
+            <span class="gallery__item-number">05</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/6.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Shoping
+            </h2>
+            <span class="gallery__item-number">06</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/7.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Smile
+            </h2>
+            <span class="gallery__item-number">07</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/8.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Roses
+            </h2>
+            <span class="gallery__item-number">08</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/9.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Beautiful
+            </h2>
+            <span class="gallery__item-number">09</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/10.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Nature
+            </h2>
+            <span class="gallery__item-number">10</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+        <figure class="gallery__item">
+          <div class="gallery__item-img">
+            <div
+              class="gallery__item-imginner"
+              style="background-image: url(Foto/11.png)"
+            ></div>
+          </div>
+          <figcaption class="gallery__item-caption">
+            <h2
+              class="gallery__item-title"
+              data-scroll=""
+              data-scroll-speed="2"
+              data-splitting=""
+            >
+              Singing
+            </h2>
+            <span class="gallery__item-number">11</span>
+            <p class="gallery__item-text">AVULOVA</p>
+            <p class="gallery__item-text">2003</p>
+          </figcaption>
+        </figure>
+      </div>
+    </main>
+    <svg class="cursor" width="30" height="30" viewBox="0 0 30 30">
+      <circle class="cursor__inner" cx="15" cy="15" r="7.5"></circle>
+    </svg>
+    <script src="JS/demo1.151408fb.js"></script>
+    <script src="https://tympanus.net/codrops/adpacks/cda.js"></script>
+  </body>
+</html>
